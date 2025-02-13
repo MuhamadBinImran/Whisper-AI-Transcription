@@ -1,5 +1,4 @@
-
-# 📝 Whisper AI: Transcribe & Analyze Audio Effortlessly 🎙️
+# 📝 Whisper AI: Transcribe & Analyze Audio Effortlessly 🎧
 
 Whisper AI is an **Automatic Speech Recognition (ASR) system** developed using **OpenAI's Whisper Model**. This project enables users to **transcribe audio**, **perform sentiment and emotion analysis**, **summarize content**, **translate transcriptions**, and even **search Google** using transcribed text.
 
@@ -19,7 +18,12 @@ Whisper AI is an **Automatic Speech Recognition (ASR) system** developed using *
 
 ---
 
-## 📥 Installation & Setup
+## 💚 Live Demo
+Try the live demo here: **[Whisper AI Live Demo](https://your-demo-link.com)**
+
+---
+
+## 💽 Installation & Setup
 
 ### 1️⃣ **Clone the Repository**
 ```sh
@@ -77,14 +81,13 @@ pip install streamlit openai-whisper torch transformers gtts deep-translator sou
 
 ## 📸 Screenshots
 
-### **🎤 Upload Audio File**
-![Upload Screenshot](screenshots/upload.png)
+### **📝 Transcription & Analysis**
 
-### **📜 Transcription & Analysis**
-![Results Screenshot](screenshots/results.png)
+![image](https://github.com/user-attachments/assets/ebd3f617-76b4-4344-8db8-1e85c5963a74)
 
-### **🌍 Translation & TTS**
-![Translation Screenshot](screenshots/translation.png)
+![image](https://github.com/user-attachments/assets/888f962a-84cf-4c19-bef8-e7c0eef741b6)
+
+![image](https://github.com/user-attachments/assets/cfce5e59-50b8-4c71-a2f6-dcc75badbc63)
 
 ---
 
@@ -93,9 +96,37 @@ Once transcription is completed, **click the Google Search button** to **instant
 
 ---
 
-## 🛠 Troubleshooting
+## 🔧 Performance Benchmarks
+| Model    | Size  | Speed  | Accuracy  |
+|----------|-------|--------|-----------|
+| **Tiny**  | 39M   | 🔥 Fast  | ✅ Good    |
+| **Base**  | 74M   | ⚡ Medium | ✅ Better  |
+| **Small** | 244M  | 🚀 Moderate | ✅ High  |
+| **Medium** | 769M | 🏁 Slow  | ✅ Very High  |
+| **Large**  | 1.55B | 🐢 Slowest | ✅✅ Best  |
 
-### 🛑 **CUDA Memory Issues**
+---
+
+## 🌟 Frequently Asked Questions (FAQ)
+
+### 1️⃣ How do I fix CUDA Out of Memory Errors?
+Try forcing CPU usage:
+```sh
+DEVICE="cpu"
+```
+
+### 2️⃣ What file formats does Whisper AI support?
+- **Supported:** `.mp3`, `.wav`, `.m4a`
+- **Not Supported:** `.ogg`, `.flac`, `.aac` (convert using `ffmpeg`)
+
+### 3️⃣ Can I use this on mobile?
+Currently, **only PC/Laptop** is supported. A **mobile version** may be released in the future.
+
+---
+
+## 🔧 Troubleshooting
+
+### 🚫 **CUDA Memory Issues**
 If you get a GPU memory error, force CPU usage:
 ```sh
 DEVICE="cpu"
@@ -110,7 +141,6 @@ pip install -r requirements.txt --force-reinstall
 ---
 
 ## 👨‍💻 Contributing
-
 Contributions are **welcome**! Feel free to:
 - **Fork** this repository.
 - **Create a new feature branch**.
@@ -118,32 +148,7 @@ Contributions are **welcome**! Feel free to:
 
 ---
 
-## 📜 License
-This project is **open-source** and available under the **MIT License**.
-
----
-
-## 🎯 Future Enhancements
-✅ **Live Speech Recognition**  
-✅ **YouTube Video Transcription**  
-✅ **Real-time Voice Assistant Integration**  
-✅ **Chatbot Integration**  
-
----
-
-## 🏆 Credits
-This project is built using:
-- **OpenAI Whisper Model** 🎙️
-- **Hugging Face Transformers** 🤗
-- **Streamlit UI** 🚀
-
----
-
-## 🎉 Support the Project
+## 💜 Support the Project
 If you like this project, please **⭐ star this repository** on GitHub!  
-Let's **innovate AI-powered speech transcription together**! 🚀🎙️
-```
+Let's **innovate AI-powered speech transcription together**! 🚀🎧
 
----
-
-Now, **paste this in your README.md file** in your GitHub repository, and you're done! 🚀 Let me know if you need any modifications. 🎉
