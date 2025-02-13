@@ -1,0 +1,10 @@
+streamlit
+openai-whisper
+torch
+transformers
+gtts
+deep-translator
+soundfile
+numpy
+noisereduce
+textblob
