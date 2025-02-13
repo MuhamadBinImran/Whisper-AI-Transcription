@@ -8,3 +8,5 @@ soundfile
 numpy
 noisereduce
 textblob
+pydub
+
