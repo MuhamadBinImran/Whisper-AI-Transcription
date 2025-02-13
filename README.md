@@ -19,7 +19,7 @@ Whisper AI is an **Automatic Speech Recognition (ASR) system** developed using *
 ---
 
 ## 💚 Live Demo
-Try the live demo here: **[Whisper AI Live Demo](https://your-demo-link.com)**
+Try the live demo here: **[Whisper AI Live Demo]([https://your-demo-link.com](https://whisper-ai-transcription-kyzftj2omrkpacrk727nc4.streamlit.app/))**
 
 ---
 
